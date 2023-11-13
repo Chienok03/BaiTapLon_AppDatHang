@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     EditText repassword;
     TextView  signin;
     Button signup;
+
+    String name;
     ProductDatabaseHelper dbHelper = new ProductDatabaseHelper(this);
 
     @Override
