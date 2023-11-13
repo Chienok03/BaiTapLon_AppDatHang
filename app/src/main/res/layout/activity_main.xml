@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mauchudao"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="45dp"
+        android:gravity="center_horizontal"
+        android:text="Đăng Ký"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Tên đăng nhập"
+        android:paddingStart="15dp"
+        android:textColorHint="#ABB5B4"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Mật khẩu"
+        android:paddingStart="15dp"
+        android:textColorHint="#ABB5B4"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/repass"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/white"
+        android:hint="Nhập lại mật khẩu"
+        android:paddingStart="15dp"
+        android:textColorHint="#ABB5B4"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/green"
+        android:text="ĐĂNG KÝ"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Đã có tài khoản"
+        android:textColor="@color/red"
+        android:textSize="17sp" />
+</LinearLayout>

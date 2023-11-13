@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/layout/item_product.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/mausp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imgProduct"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="13dp"
+        android:src="@drawable/mucsao" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="75dp"
+        android:text="Product Name"
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/priceTextViewGia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="43dp"
+        android:text="Giá:"
+        android:textColor="@color/red"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/priceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="44dp"
+        android:text="Product Price"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/soluong"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginBottom="13dp"
+        android:text="Số lượng:"
+        android:textColor="@color/green"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/mausp"
+        android:text="1"
+        android:textColor="@color/red"
+        android:textSize="22sp">
+
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/deleteProduct"
+        android:layout_width="30dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/anhxoasp"
+        android:onClick="onDeleteButtonClick" />
+</RelativeLayout>

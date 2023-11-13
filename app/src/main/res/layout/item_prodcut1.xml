@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:orientation="vertical"
+    android:layout_marginTop="5dp"
+    android:id="@+id/layout_item"
+    android:background="@color/mausp">
+
+    <ImageView
+        android:id="@+id/ImageProduct"
+        android:layout_width="100sp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/mucsao">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/NameSpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="135dp"
+        android:textColor="@color/green"
+        android:layout_marginTop="20dp"
+        android:text="Product Name"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:id="@+id/GiaSp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Giá:"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/PriceSpTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="12"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/Donvi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="9dp"
+            android:text="đ"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>

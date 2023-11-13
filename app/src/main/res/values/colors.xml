@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#38E484</color>
+    <color name="mauchudao">#F4E1CE</color>
+    <color name="mausp">#F8EDE2</color>
+</resources>

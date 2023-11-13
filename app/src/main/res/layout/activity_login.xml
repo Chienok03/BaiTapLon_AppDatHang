@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@color/mauchudao"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Nhập"
+        android:textColor="@color/black"
+        android:textSize="45dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="45dp"/>
+
+    <EditText
+        android:id="@+id/edtUser1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Tên đăng nhập"
+        android:textColorHint="#ABB5B4"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edtPass1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Mật khẩu"
+        android:textColorHint="#ABB5B4"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:layout_marginBottom="30dp"
+        android:paddingLeft="15dp"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="ĐĂNG NHẬP"
+        android:backgroundTint="@color/green"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="TRỞ VỀ"
+        android:textColor="@color/red"
+        android:textSize="17dp"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
